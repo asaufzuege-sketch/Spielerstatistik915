@@ -269,6 +269,11 @@ App.teamSelection = {
     
     return true;
   },
+
+  // NEU: Getter, den js/app.js erwartet
+  getCurrentTeam() {
+    return this.currentTeam;
+  },
   
   // Get current team info
   getCurrentTeamInfo() {
