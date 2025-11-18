@@ -270,7 +270,7 @@ App.teamSelection = {
     return true;
   },
 
-  // NEU: Getter, den js/app.js erwartet
+  // WICHTIG: Getter, den js/app.js erwartet
   getCurrentTeam() {
     return this.currentTeam;
   },
